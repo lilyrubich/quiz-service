@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="703.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.ControllerRangQuestion">
+   <children>
+      <AnchorPane layoutX="22.0" layoutY="124.0" prefHeight="438.0" prefWidth="659.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Button fx:id="AddQuestion" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="230.0" layoutY="363.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="230.0" style="-fx-background-insets: #4682B4;" text="Готово">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <TextField fx:id="AnswerField1" alignment="TOP_LEFT" blendMode="SRC_ATOP" focusTraversable="false" layoutX="26.0" layoutY="73.0" prefHeight="38.0" prefWidth="588.0" promptText="Правильный ответ" visible="false">
+               <font>
+                  <Font name="Ebrima" size="17.0" />
+               </font>
+            </TextField>
+            <Button fx:id="NewAnswer1" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" layoutX="26.0" layoutY="120.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="45.0" style="-fx-background-insets: #4682B4;" text="+" visible="false">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <TextField fx:id="line1" alignment="TOP_LEFT" blendMode="SRC_ATOP" focusTraversable="false" layoutX="26.0" layoutY="58.0" prefHeight="30.0" prefWidth="542.0">
+               <font>
+                  <Font name="Ebrima" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="line2" alignment="TOP_LEFT" blendMode="SRC_ATOP" focusTraversable="false" layoutX="26.0" layoutY="104.0" prefHeight="30.0" prefWidth="542.0">
+               <font>
+                  <Font name="Ebrima" size="14.0" />
+               </font>
+            </TextField>
+            <Text fill="#514d48" fontSmoothingType="LCD" layoutX="26.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Количество строк:" wrappingWidth="152.65736770629883">
+               <font>
+                  <Font name="Ebrima" size="17.0" />
+               </font>
+            </Text>
+            <ChoiceBox fx:id="lineCount" focusTraversable="false" layoutX="187.0" layoutY="14.0" opacity="0.78" prefHeight="26.0" prefWidth="63.0" />
+            <TextField fx:id="line3" alignment="TOP_LEFT" blendMode="SRC_ATOP" focusTraversable="false" layoutX="26.0" layoutY="149.0" prefHeight="30.0" prefWidth="542.0" visible="false">
+               <font>
+                  <Font name="Ebrima" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="line4" alignment="TOP_LEFT" blendMode="SRC_ATOP" focusTraversable="false" layoutX="26.0" layoutY="195.0" prefHeight="30.0" prefWidth="542.0" visible="false">
+               <font>
+                  <Font name="Ebrima" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="line5" alignment="TOP_LEFT" blendMode="SRC_ATOP" focusTraversable="false" layoutX="26.0" layoutY="241.0" prefHeight="30.0" prefWidth="542.0" visible="false">
+               <font>
+                  <Font name="Ebrima" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="line6" alignment="TOP_LEFT" blendMode="SRC_ATOP" focusTraversable="false" layoutX="26.0" layoutY="286.0" prefHeight="30.0" prefWidth="542.0" visible="false">
+               <font>
+                  <Font name="Ebrima" size="14.0" />
+               </font>
+            </TextField>
+            <Button fx:id="down3" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="586.0" layoutY="163.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▼" visible="false">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="up3" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="586.0" layoutY="146.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▲" visible="false">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="down2" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="585.0" layoutY="118.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▼">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="up2" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="585.0" layoutY="101.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▲">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="down4" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="585.0" layoutY="209.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▼" visible="false">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="up4" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="585.0" layoutY="192.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▲" visible="false">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="down5" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="586.0" layoutY="255.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▼" visible="false">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="up5" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="586.0" layoutY="238.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▲" visible="false">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="down1" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="585.0" layoutY="72.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▼">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="up1" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="585.0" layoutY="55.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▲">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="down6" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="586.0" layoutY="300.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▼" visible="false">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="up6" blendMode="DIFFERENCE" cache="true" cacheHint="ROTATE" depthTest="ENABLE" focusTraversable="false" layoutX="586.0" layoutY="283.0" mnemonicParsing="false" prefHeight="5.0" prefWidth="35.0" style="-fx-background-insets: #4682B4;" text="▲" visible="false">
+               <effect>
+                  <InnerShadow color="#9195a75c" height="0.0" radius="0.0" width="0.0" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="QuestionField" alignment="TOP_LEFT" blendMode="SRC_ATOP" focusTraversable="false" layoutX="22.0" layoutY="34.0" prefHeight="75.0" prefWidth="659.0" promptText="Напишите свой вопрос здесь">
+         <font>
+            <Font name="Ebrima" size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
